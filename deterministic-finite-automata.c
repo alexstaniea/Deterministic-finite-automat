@@ -62,7 +62,7 @@ int main()
             printf("\n\nIntroduceti cuvantul de testat:   ");
             fscanf(stdin,"%s",cuvant);
 
-            if(!strcmp(cuvant,"~"))
+            if(!strcmp(cuvant,"~"))      //cuvantul vid
             {
                 for(j=0;j<nr_st_finale;j++)
                 {
